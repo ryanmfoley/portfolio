@@ -1,0 +1,12 @@
+.projects {
+	margin: 40px;
+}
+
+.projects > h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.project {
+	margin: 40px 0;
+}

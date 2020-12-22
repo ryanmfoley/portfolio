@@ -1,0 +1,18 @@
+$theme-colors: (
+	'primary': #1960cb,
+);
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	padding: 60px;
+	background-color: lightgray;
+}
