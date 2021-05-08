@@ -1,9 +1,8 @@
-.about {
+#about {
 	margin: 40px;
-	/* border: 1px solid blue; */
 }
 
-.about > h1 {
+#about > h1 {
 	margin-bottom: 50px;
 	text-align: center;
 }

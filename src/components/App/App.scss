@@ -1,9 +1,10 @@
 $theme-colors: (
-	'primary': #1960cb,
+	'primary': white,
 );
 
 @import '~bootstrap/scss/bootstrap.scss';
 
+/* GLOBAL STYLES */
 * {
 	box-sizing: border-box;
 }
@@ -13,6 +14,5 @@ html {
 }
 
 body {
-	padding: 60px;
-	background-color: lightgray;
+	background: #333;
 }
