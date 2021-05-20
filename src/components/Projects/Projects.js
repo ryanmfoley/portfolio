@@ -13,7 +13,7 @@ const Projects = () => (
 			<strong>Projects</strong>
 		</h1>
 		<hr />
-		<div className='project-container d-flex justify-content-around my-5'>
+		<div className='projects-container d-flex justify-content-around flex-wrap my-5'>
 			<Card style={{ width: '18rem' }}>
 				<a href='https://ryfoa6.github.io/Minesweeper' target='_blank'>
 					<Card.Img variant='top' src={minesweeper} />

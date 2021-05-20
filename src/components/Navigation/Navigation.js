@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Carousel, Modal, Navbar, Nav } from 'react-bootstrap'
+import { Carousel, Modal, Nav, Navbar } from 'react-bootstrap'
 
 import resumePageOne from '../../assets/images/resume-page-1.png'
 import resumePageTwo from '../../assets/images/resume-page-2.png'
@@ -13,24 +13,19 @@ const Navigation = () => {
 
 	return (
 		<>
-			<Navbar variant='dark' sticky='top'>
-				<Navbar.Brand className='ml-5' href='#home'>
+			<Navbar collapseOnSelect expand='sm' variant='dark' sticky='top'>
+				<Navbar.Brand href='#home'>
 					<h2 className='mb-0'>Ryan Foley</h2>
 				</Navbar.Brand>
-				<Nav className='ml-auto mr-5'>
-					<Nav.Link className='px-3' href='#about'>
-						About
-					</Nav.Link>
-					<Nav.Link className='px-3' href='#projects'>
-						Projects
-					</Nav.Link>
-					<Nav.Link className='px-3' href='#contact'>
-						Contact
-					</Nav.Link>
-					<Nav.Link className='px-3' onClick={handleShow}>
-						Resume
-					</Nav.Link>
-				</Nav>
+				<Navbar.Toggle aria-controls='responsive-navbar-nav' />
+				<Navbar.Collapse id='responsive-navbar-nav'>
+					<Nav className='ml-auto'>
+						<Nav.Link href='#about'>About</Nav.Link>
+						<Nav.Link href='#projects'>Projects</Nav.Link>
+						<Nav.Link href='#contact'>Contact</Nav.Link>
+						<Nav.Link onClick={handleShow}>Resume</Nav.Link>
+					</Nav>
+				</Navbar.Collapse>
 			</Navbar>
 			<Modal size='lg' show={show} onHide={handleClose}>
 				<Modal.Header closeButton></Modal.Header>
@@ -56,29 +51,5 @@ const Navigation = () => {
 		</>
 	)
 }
-
-// const Navigation = () => (
-// 	<Navbar variant='dark' sticky='top'>
-// 		<Navbar.Brand className='ml-5' href='#home'>
-// 			<h2 className='mb-0'>Ryan Foley</h2>
-// 		</Navbar.Brand>
-// 		<Nav className='ml-auto mr-5'>
-// 			<Nav.Link className='px-3' href='#about'>
-// 				About
-// 			</Nav.Link>
-// 			<Nav.Link className='px-3' href='#projects'>
-// 				Projects
-// 			</Nav.Link>
-// 			<Nav.Link className='px-3' href='#contact'>
-// 				Contact
-// 			</Nav.Link>
-// 			<Nav.Link
-// 				className='px-3'
-// 				href='https://docs.google.com/document/d/1INzbbDOxgz5enegBF7XMuZ3OOzMhkw80dJZgKK98uv8/edit?usp=sharing'>
-// 				Resume
-// 			</Nav.Link>
-// 		</Nav>
-// 	</Navbar>
-// )
 
 export default Navigation

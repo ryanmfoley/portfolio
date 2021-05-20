@@ -1,7 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Nixie+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 
 .navbar {
@@ -10,17 +6,12 @@
 }
 
 .navbar-brand h2 {
-	font-size: 2.5rem;
+	font-size: max(3vw, 20px);
 	font-family: 'Libre Barcode 39 Text', cursive;
-	/* font-family: 'Major Mono Display', monospace; */
-	/* font-family: 'Nixie One', cursive; */
-	/* font-family: 'Megrim', cursive; */
-	/* font-family: 'Monofett', cursive; */
-	/* font-family: 'Londrina Shadow', cursive; */
 }
 
 .nav-link {
-	font-size: 1.3rem;
+	font-size: 1.5vw;
 }
 
 .nav-link:after {

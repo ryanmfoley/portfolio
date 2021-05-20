@@ -8,10 +8,11 @@
 
 .intro h1 {
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	border-right: 0.15em solid orange; /* The typwriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
+	font-size: max(3vw, 24px);
 	line-height: 1.5em;
 	letter-spacing: 0.15em;
+	border-right: 0.15em solid orange; /* The typwriter cursor */
 }
 
 .intro h1:nth-child(1) {

@@ -12,7 +12,7 @@ const App = () => (
 	<>
 		<Intro />
 		<Navigation />
-		<main className='content'>
+		<main>
 			<About />
 			<Projects />
 			<Contact />
