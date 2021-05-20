@@ -13,6 +13,9 @@ const Contact = () => (
 			<a href='https://www.linkedin.com/in/ryfoa6/'>
 				<ion-icon name='logo-linkedin' class='m-1'></ion-icon>
 			</a>
+			<a href='mailto:ryfo720@gmail.com'>
+				<ion-icon name='mail' class='m-1'></ion-icon>
+			</a>
 		</div>
 	</footer>
 )
