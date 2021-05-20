@@ -1,0 +1,94 @@
+.intro {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.intro h1 {
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: 0.15em solid orange; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	line-height: 1.5em;
+	letter-spacing: 0.15em;
+}
+
+.intro h1:nth-child(1) {
+	width: 13em;
+	animation: typing1 2.5s steps(30, end);
+	animation-fill-mode: forwards;
+}
+
+.intro h1:nth-child(2) {
+	width: 15em;
+	opacity: 0;
+	animation: typing2 3s steps(30, end),
+		blinking-caret 0.5s step-end infinite alternate;
+	animation-delay: 3s;
+	animation-fill-mode: forwards;
+}
+
+.intro .name {
+	color: rgb(203, 23, 6);
+}
+
+.arrow {
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.intro .btn-intro {
+	border: 2px solid white;
+	border-radius: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+.intro .btn-intro:hover {
+	background: #06bacb;
+	border: 2px solid #06bacb;
+	color: white;
+}
+
+.intro .btn-intro:hover .arrow {
+	display: inline-block;
+	padding: 3px;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+	transition: all 0.5s;
+}
+
+/* The typing animation */
+@keyframes typing1 {
+	0% {
+		width: 0;
+	}
+	99.9% {
+		border-right: 0.15em solid orange;
+	}
+	100% {
+		border: none;
+	}
+}
+
+@keyframes typing2 {
+	0% {
+		width: 0;
+	}
+	1% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+/* The typewriter cursor effect */
+@keyframes blinking-caret {
+	50% {
+		border-color: transparent;
+	}
+}

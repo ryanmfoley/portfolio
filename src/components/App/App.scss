@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&family=Raleway&display=swap');
+
 $theme-colors: (
 	'primary': white,
+	'secondary': blue,
 );
 
 @import '~bootstrap/scss/bootstrap.scss';
@@ -15,4 +18,33 @@ html {
 
 body {
 	background: #333;
+	font-family: 'Raleway';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	line-height: 1.7;
+	color: white;
+}
+
+hr {
+	width: 30%;
+	background: white;
+}
+
+#about,
+#projects {
+	padding-top: 120px;
+}
+
+.header {
+	text-shadow: 3px 3px 3px rgb(203, 23, 6);
+}
+
+.content {
+	margin: 0 60px;
 }

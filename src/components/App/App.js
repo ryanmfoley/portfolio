@@ -1,19 +1,23 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
 
 import About from '../About/About'
-import Header from '../Header/Header'
+import Intro from '../Intro/Intro'
+import Navigation from '../Navigation/Navigation'
 import Projects from '../Projects/Projects'
+import Contact from '../Contact/Contact'
+
 import './App.scss'
 
 const App = () => (
-	<div className='app'>
-		<Container>
-			<Header />
+	<>
+		<Intro />
+		<Navigation />
+		<main className='content'>
 			<About />
 			<Projects />
-		</Container>
-	</div>
+			<Contact />
+		</main>
+	</>
 )
 
 export default App

@@ -1,12 +1,39 @@
-.projects {
-	margin: 40px;
+.card-title {
+	border-bottom: 1px solid black;
 }
 
-.projects > h1 {
-	text-align: center;
-	margin-bottom: 30px;
+.project-img {
+	width: 400px;
 }
 
-.project {
-	margin: 40px 0;
+.playMeChess-project,
+.minesweeper-project,
+.mtg-project {
+	position: relative;
+}
+
+.playMeChess-description,
+.minesweeper-description,
+.mtg-description {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.85);
+	visibility: hidden;
+}
+
+.playMeChess-project:hover .playMeChess-description {
+	visibility: visible;
+}
+
+.minesweeper-project:hover .minesweeper-description {
+	visibility: visible;
+}
+
+.mtg-project:hover .mtg-description {
+	visibility: visible;
 }

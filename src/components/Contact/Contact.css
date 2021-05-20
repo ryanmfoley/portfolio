@@ -1,0 +1,22 @@
+footer {
+	margin-top: 32px;
+	font-size: 18px;
+}
+
+.role {
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 0.1vmin;
+	color: white;
+	text-decoration: underline;
+	margin: auto;
+}
+
+.name {
+	color: #3e70b7;
+}
+
+.socials > a {
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+}
