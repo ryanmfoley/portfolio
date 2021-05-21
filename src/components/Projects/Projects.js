@@ -1,9 +1,9 @@
 import React from 'react'
 import { Card } from 'react-bootstrap'
 
-import minesweeper from '../../assets/images/minesweeper.png'
-import magicTheGathering from '../../assets/images/mtg.png'
-import playMeChess from '../../assets/images/play-me-chess.png'
+import minesweeper from '../../assets/minesweeper.png'
+import magicTheGathering from '../../assets/mtg.png'
+import playMeChess from '../../assets/play-me-chess.png'
 
 import './Projects.css'
 

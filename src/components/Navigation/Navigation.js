@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Carousel, Modal, Nav, Navbar } from 'react-bootstrap'
 
-import resumePageOne from '../../assets/images/resume-page-1.png'
-import resumePageTwo from '../../assets/images/resume-page-2.png'
+import resumePageOne from '../../assets/resume-page-1.png'
+import resumePageTwo from '../../assets/resume-page-2.png'
 import './Navigation.css'
 
 const Navigation = () => {
