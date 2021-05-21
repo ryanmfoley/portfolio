@@ -11,7 +11,7 @@
 }
 
 .nav-link {
-	font-size: 1.5vw;
+	font-size: max(1.5vw, 24px);
 }
 
 .nav-link:after {
