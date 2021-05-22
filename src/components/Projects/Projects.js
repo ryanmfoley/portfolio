@@ -29,12 +29,14 @@ const Projects = () => (
 						</p>
 						<a
 							className='d-block text-secondary'
-							href='https://github.com/ryfoa6/Minesweeper'>
+							href='https://github.com/ryfoa6/Minesweeper'
+							target='_blank'>
 							<strong>View Code</strong>
 						</a>
 						<a
 							className='text-secondary'
-							href='https://ryfoa6.github.io/Minesweeper'>
+							href='https://ryfoa6.github.io/Minesweeper'
+							target='_blank'>
 							<strong>View Deployed App</strong>
 						</a>
 					</Card.Text>
@@ -51,7 +53,7 @@ const Projects = () => (
 				</Card.Footer>
 			</Card>
 			<Card style={{ width: '18rem' }}>
-				<a href='https://play-me-chess.herokuapp.com/' target='_blank'>
+				<a href='https://play-me-chess.herokuapp.com' target='_blank'>
 					<Card.Img variant='top' src={playMeChess} />
 				</a>
 				<Card.Title className='py-3 text-center'>
@@ -66,12 +68,14 @@ const Projects = () => (
 						</p>
 						<a
 							className='d-block text-secondary'
-							href='https://github.com/ryfoa6/play-me-chess'>
+							href='https://github.com/ryfoa6/play-me-chess'
+							target='_blank'>
 							<strong>View Code</strong>
 						</a>
 						<a
 							className='text-secondary'
-							href='https://play-me-chess.herokuapp.com/'>
+							href='https://play-me-chess.herokuapp.com'
+							target='_blank'>
 							<strong>View Deployed App</strong>
 						</a>
 					</Card.Text>
@@ -107,12 +111,14 @@ const Projects = () => (
 						</p>
 						<a
 							className='d-block text-secondary'
-							href='https://github.com/ryfoa6/magic-the-gathering/tree/master'>
+							href='https://github.com/ryfoa6/magic-the-gathering/tree/master'
+							target='_blank'>
 							<strong>View Code</strong>
 						</a>
 						<a
 							className='text-secondary'
-							href='https://ryfoa6-magic-the-gathering.herokuapp.com/'>
+							href='https://ryfoa6-magic-the-gathering.herokuapp.com/'
+							target='_blank'>
 							<strong>View Deployed App</strong>
 						</a>
 					</Card.Text>
