@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { Carousel, Modal, Nav, Navbar } from 'react-bootstrap'
 
 import resumePageOne from '../../assets/resume-page-1.png'

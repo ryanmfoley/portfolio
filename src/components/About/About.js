@@ -1,5 +1,3 @@
-import React from 'react'
-
 import './About.css'
 
 const About = () => (
@@ -8,7 +6,6 @@ const About = () => (
 			<strong>About</strong>
 		</h1>
 		<hr />
-		{/* <h4 className='w-75 text-center ml-auto mr-auto'> */}
 		<h4 className='mt-4 text-center ml-auto mr-auto'>
 			I am a Full Stack Software Engineer with a passion for solving problems
 			and challenging myself. I consider myself a creative thinker and I like to
