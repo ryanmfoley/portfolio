@@ -1,4 +1,3 @@
-import React from 'react'
 import { Card } from 'react-bootstrap'
 
 import minesweeper from '../../assets/minesweeper.png'
@@ -15,7 +14,10 @@ const Projects = () => (
 		<hr />
 		<div className='projects-container d-flex justify-content-around flex-wrap my-5'>
 			<Card style={{ width: '18rem' }}>
-				<a href='https://ryfoa6.github.io/Minesweeper' target='_blank'>
+				<a
+					href='https://ryfoa6.github.io/Minesweeper'
+					rel='noreferrer'
+					target='_blank'>
 					<Card.Img variant='top' src={minesweeper} />
 				</a>
 				<Card.Title className='py-3 text-center'>
@@ -30,12 +32,14 @@ const Projects = () => (
 						<a
 							className='d-block text-secondary'
 							href='https://github.com/ryfoa6/Minesweeper'
+							rel='noreferrer'
 							target='_blank'>
 							<strong>View Code</strong>
 						</a>
 						<a
 							className='text-secondary'
 							href='https://ryfoa6.github.io/Minesweeper'
+							rel='noreferrer'
 							target='_blank'>
 							<strong>View Deployed App</strong>
 						</a>
@@ -53,7 +57,10 @@ const Projects = () => (
 				</Card.Footer>
 			</Card>
 			<Card style={{ width: '18rem' }}>
-				<a href='https://play-me-chess.herokuapp.com' target='_blank'>
+				<a
+					href='https://play-me-chess.herokuapp.com'
+					rel='noreferrer'
+					target='_blank'>
 					<Card.Img variant='top' src={playMeChess} />
 				</a>
 				<Card.Title className='py-3 text-center'>
@@ -69,12 +76,14 @@ const Projects = () => (
 						<a
 							className='d-block text-secondary'
 							href='https://github.com/ryfoa6/play-me-chess'
+							rel='noreferrer'
 							target='_blank'>
 							<strong>View Code</strong>
 						</a>
 						<a
 							className='text-secondary'
 							href='https://play-me-chess.herokuapp.com'
+							rel='noreferrer'
 							target='_blank'>
 							<strong>View Deployed App</strong>
 						</a>
@@ -96,6 +105,7 @@ const Projects = () => (
 			<Card style={{ width: '18rem' }}>
 				<a
 					href='https://ryfoa6-magic-the-gathering.herokuapp.com/'
+					rel='noreferrer'
 					target='_blank'>
 					<Card.Img variant='top' src={magicTheGathering} />
 				</a>
@@ -112,12 +122,14 @@ const Projects = () => (
 						<a
 							className='d-block text-secondary'
 							href='https://github.com/ryfoa6/magic-the-gathering/tree/master'
+							rel='noreferrer'
 							target='_blank'>
 							<strong>View Code</strong>
 						</a>
 						<a
 							className='text-secondary'
 							href='https://ryfoa6-magic-the-gathering.herokuapp.com/'
+							rel='noreferrer'
 							target='_blank'>
 							<strong>View Deployed App</strong>
 						</a>
