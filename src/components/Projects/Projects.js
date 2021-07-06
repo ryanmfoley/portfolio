@@ -31,7 +31,7 @@ const Projects = () => (
 						</p>
 						<a
 							className='d-block text-secondary'
-							href='https://github.com/ryfoa6/Minesweeper'
+							href='https://ryanmfoley.github.io/minesweeper/'
 							rel='noreferrer'
 							target='_blank'>
 							<strong>View Code</strong>
