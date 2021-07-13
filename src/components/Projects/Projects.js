@@ -12,7 +12,7 @@ const Projects = () => (
 			<strong>Projects</strong>
 		</h1>
 		<hr />
-		<div className='projects-container d-flex justify-content-around flex-wrap my-5'>
+		<projects className='projects-container d-flex justify-content-around flex-wrap my-5'>
 			<Card style={{ width: '18rem' }}>
 				<a
 					href='https://ryanmfoley.github.io/minesweeper'
@@ -66,9 +66,9 @@ const Projects = () => (
 				<Card.Body>
 					<Card.Text>
 						<p className='text-dark'>
-							Play-Me-Chess is a chess game I built from scratch using
-							JavaScript and the DOM. The back-end was built using NodeJS,
-							Express, Mongoose, and Socket.io.
+							Play-Me-Chess is a chess game that I built from scratch. The
+							front-end was built with Vanilla JavaScript and the DOM while the
+							back-end was built with Express, MongoDB/Mongoose, and Socket.io.
 						</p>
 						<a
 							className='d-block text-secondary'
@@ -93,7 +93,8 @@ const Projects = () => (
 						</h5>
 						<p className='text-dark'>
 							<strong>
-								JavaScript, NodeJS, Socket.io, Mongoose, Bootstrap
+								JavaScript, NodeJS, Express, MongoDB/Mongoose, Socket.io,
+								Bootstrap, Sass
 							</strong>
 						</p>
 					</Card.Text>
@@ -143,7 +144,158 @@ const Projects = () => (
 					</Card.Text>
 				</Card.Footer>
 			</Card>
-		</div>
+			<Card style={{ width: '18rem' }}>
+				<a
+					href='https://octopi-trivia.herokuapp.com'
+					rel='noreferrer'
+					target='_blank'>
+					{/* <Card.Img variant='top' src={} /> */}
+				</a>
+				<Card.Title className='py-3 text-center'>
+					<strong>Octopi Trivia</strong>
+				</Card.Title>
+				<Card.Body>
+					<Card.Text>
+						<p className='text-dark'>
+							My first Outcomes Sprint project at General Assembly I worked with
+							a team of engineers paired with a team of UX designers and built a
+							Trivia application to help user test their knowledge.
+						</p>
+						<a
+							className='d-block text-secondary'
+							href='https://github.com/ryanmfoley/octopi-trivia'
+							rel='noreferrer'
+							target='_blank'>
+							<strong>View Code</strong>
+						</a>
+						<a
+							className='text-secondary'
+							href='https://octopi-trivia.herokuapp.com'
+							rel='noreferrer'
+							target='_blank'>
+							<strong>View Deployed App</strong>
+						</a>
+					</Card.Text>
+				</Card.Body>
+				<Card.Footer>
+					<Card.Text>
+						<h5 className='text-dark'>
+							<strong>Technologies: </strong>
+						</h5>
+						<p className='text-dark'>
+							<strong>
+								JavaScript, NodeJS, Express, MongoDB/Mongoose, EJS
+							</strong>
+						</p>
+					</Card.Text>
+				</Card.Footer>
+			</Card>
+			<Card style={{ width: '18rem' }}>
+				<a
+					href='https://jot-it-projects.netlify.app/'
+					rel='noreferrer'
+					target='_blank'>
+					{/* <Card.Img variant='top' src={} /> */}
+				</a>
+				<Card.Title className='py-3 text-center'>
+					<strong>Jot-It</strong>
+				</Card.Title>
+				<Card.Body>
+					<Card.Text>
+						<p className='text-dark'>
+							For my third project at General Assembly I worked with my team of
+							developer to develop a project management app where users can can
+							manage their tasks and chat with their teammates.
+						</p>
+						<a
+							className='d-block text-secondary'
+							href='https://github.com/ryanmfoley/jot-it'
+							rel='noreferrer'
+							target='_blank'>
+							<strong>View Front-end Code</strong>
+						</a>
+						<a
+							className='d-block text-secondary'
+							href='https://github.com/ryanmfoley/jot-it-server'
+							rel='noreferrer'
+							target='_blank'>
+							<strong>View Back-end Code</strong>
+						</a>
+						<a
+							className='text-secondary'
+							href='https://jot-it-projects.netlify.app/'
+							rel='noreferrer'
+							target='_blank'>
+							<strong>View Deployed App</strong>
+						</a>
+					</Card.Text>
+				</Card.Body>
+				<Card.Footer>
+					<Card.Text>
+						<h5 className='text-dark'>
+							<strong>Technologies: </strong>
+						</h5>
+						<p className='text-dark'>
+							<strong>
+								JavaScript, React, NodeJS, Express, MongoDB/Mongoose, Socket.io,
+								Bootstrap, Sass
+							</strong>
+						</p>
+					</Card.Text>
+				</Card.Footer>
+			</Card>
+			<Card style={{ width: '18rem' }}>
+				<a href='https://www.gudeeds.xyz' rel='noreferrer' target='_blank'>
+					{/* <Card.Img variant='top' src={} /> */}
+				</a>
+				<Card.Title className='py-3 text-center'>
+					<strong>Güdeeds</strong>
+				</Card.Title>
+				<Card.Body>
+					<Card.Text>
+						<p className='text-dark'>
+							My first hackathon application created from the prompt of “helping
+							caregivers”. Worked on a team of engineers paired with a team of
+							UX designers.
+						</p>
+						<a
+							className='d-block text-secondary'
+							href='https://github.com/ryanmfoley/favorsApp_FE'
+							rel='noreferrer'
+							target='_blank'>
+							<strong>View Front-end Code</strong>
+						</a>
+						<a
+							className='d-block text-secondary'
+							href='https://github.com/ryanmfoley/localCommunity_favorsApp'
+							rel='noreferrer'
+							target='_blank'>
+							<strong>View Back-end Code</strong>
+						</a>
+						<a
+							className='text-secondary'
+							href='https://www.gudeeds.xyz'
+							rel='noreferrer'
+							target='_blank'>
+							<strong>View Deployed App</strong>
+						</a>
+					</Card.Text>
+				</Card.Body>
+				<Card.Footer>
+					<Card.Text>
+						<h5 className='text-dark'>
+							<strong>Technologies: </strong>
+						</h5>
+						<p className='text-dark'>
+							<strong>
+								JavaScript, React, NodeJS, Express, MongoDB/Mongoose,
+								Material-UI
+							</strong>
+						</p>
+					</Card.Text>
+				</Card.Footer>
+			</Card>
+		</projects>
 	</div>
 )
 
