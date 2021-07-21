@@ -3,7 +3,9 @@ import { Card } from 'react-bootstrap'
 import minesweeper from '../../assets/minesweeper.png'
 import magicTheGathering from '../../assets/mtg.png'
 import playMeChess from '../../assets/play-me-chess.png'
-
+import gudeeds from '../../assets/gudeeds.png'
+import jotIt from '../../assets/jot-it.png'
+import octopiTrivia from '../../assets/octopi-trivia.png'
 import './Projects.css'
 
 const Projects = () => (
@@ -13,7 +15,7 @@ const Projects = () => (
 		</h1>
 		<hr />
 		<projects className='projects-container d-flex justify-content-around flex-wrap my-5'>
-			<Card style={{ width: '18rem' }}>
+			<Card className='my-3' style={{ width: '18rem' }}>
 				<a
 					href='https://ryanmfoley.github.io/minesweeper'
 					rel='noreferrer'
@@ -56,7 +58,7 @@ const Projects = () => (
 					</Card.Text>
 				</Card.Footer>
 			</Card>
-			<Card style={{ width: '18rem' }}>
+			<Card className='my-3' style={{ width: '18rem' }}>
 				<a href='http://www.playmechess.com/' rel='noreferrer' target='_blank'>
 					<Card.Img variant='top' src={playMeChess} />
 				</a>
@@ -100,7 +102,7 @@ const Projects = () => (
 					</Card.Text>
 				</Card.Footer>
 			</Card>
-			<Card style={{ width: '18rem' }}>
+			<Card className='my-3' style={{ width: '18rem' }}>
 				<a
 					href='https://magicthegathering-builder.herokuapp.com/'
 					rel='noreferrer'
@@ -144,12 +146,12 @@ const Projects = () => (
 					</Card.Text>
 				</Card.Footer>
 			</Card>
-			<Card style={{ width: '18rem' }}>
+			<Card className='my-3' style={{ width: '18rem' }}>
 				<a
 					href='https://octopi-trivia.herokuapp.com'
 					rel='noreferrer'
 					target='_blank'>
-					{/* <Card.Img variant='top' src={} /> */}
+					<Card.Img variant='top' src={octopiTrivia} />
 				</a>
 				<Card.Title className='py-3 text-center'>
 					<strong>Octopi Trivia</strong>
@@ -190,12 +192,12 @@ const Projects = () => (
 					</Card.Text>
 				</Card.Footer>
 			</Card>
-			<Card style={{ width: '18rem' }}>
+			<Card className='my-3' style={{ width: '18rem' }}>
 				<a
 					href='https://jot-it-projects.netlify.app/'
 					rel='noreferrer'
 					target='_blank'>
-					{/* <Card.Img variant='top' src={} /> */}
+					<Card.Img variant='top' src={jotIt} />
 				</a>
 				<Card.Title className='py-3 text-center'>
 					<strong>Jot-It</strong>
@@ -244,9 +246,9 @@ const Projects = () => (
 					</Card.Text>
 				</Card.Footer>
 			</Card>
-			<Card style={{ width: '18rem' }}>
+			<Card className='my-3' style={{ width: '18rem' }}>
 				<a href='https://www.gudeeds.xyz' rel='noreferrer' target='_blank'>
-					{/* <Card.Img variant='top' src={} /> */}
+					<Card.Img variant='top' src={gudeeds} />
 				</a>
 				<Card.Title className='py-3 text-center'>
 					<strong>Güdeeds</strong>
@@ -256,7 +258,8 @@ const Projects = () => (
 						<p className='text-dark'>
 							My first hackathon application created from the prompt of “helping
 							caregivers”. Worked on a team of engineers paired with a team of
-							UX designers.
+							UX designers. Our web app is built using React, with a node
+							backend for handling API requests, and runs on Heroku.
 						</p>
 						<a
 							className='d-block text-secondary'
