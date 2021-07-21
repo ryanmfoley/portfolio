@@ -10,10 +10,6 @@
 	font-family: 'Libre Barcode 39 Text', cursive;
 }
 
-.nav-link {
-	font-size: max(1.5vw, 24px);
-}
-
 .nav-link:after {
 	display: block;
 	content: '';

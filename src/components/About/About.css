@@ -1,4 +1,24 @@
-#about h4 {
-	width: max(60%, 340px);
-	font-size: max(1.6vw, 12px);
+.about-container {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin: 90px auto;
+}
+
+.about-text {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	flex-grow: 1;
+	max-width: 450px;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.profile-pic {
+	align-self: center;
+	width: 300px;
+	max-width: 300px;
+	height: auto;
+	border-radius: 50%;
 }

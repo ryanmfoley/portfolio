@@ -6,10 +6,14 @@
 	width: 400px;
 }
 
-.playMeChess-project,
+/* .playMeChess-project,
 .minesweeper-project,
 .mtg-project {
 	position: relative;
+} */
+.project {
+	/* position: relative; */
+	border: 1px solid green;
 }
 
 .playMeChess-description,
