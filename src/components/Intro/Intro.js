@@ -11,7 +11,7 @@ const Intro = () => (
 			</span>
 			.
 		</h1>
-		<h1 className='mb-2'>I'm a Software Engineer.</h1>
+		<h1 className='mb-2'>I'm a Full-Stack Developer.</h1>
 		<Button
 			className='btn-intro'
 			variant='outline-primary'
