@@ -29,9 +29,11 @@ const Navigation = () => {
 				<Modal.Header closeButton></Modal.Header>
 				<Modal.Body>
 					<iframe
-						src='https://drive.google.com/file/d/10DvNCSSl3pHnJuNAe9CNX8CaoS2zJjV6/preview'
 						className='resume'
 						title='resume'
+						src='https://drive.google.com/file/d/1DFjTtoEQdqMGOjyRHXBtPsqqH8Qa8sPz/preview'
+						width='640'
+						height='480'
 						allow='autoplay'></iframe>
 				</Modal.Body>
 			</Modal>
