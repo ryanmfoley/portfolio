@@ -31,7 +31,7 @@ const Navigation = () => {
 					<iframe
 						className='resume'
 						title='resume'
-						src='https://drive.google.com/file/d/1DFjTtoEQdqMGOjyRHXBtPsqqH8Qa8sPz/preview'
+						src='https://drive.google.com/file/d/1svNif7AvSGFUwC_eIp1Fsl9U4Mm5C5P1/preview'
 						width='640'
 						height='480'
 						allow='autoplay'></iframe>
