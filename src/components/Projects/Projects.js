@@ -161,7 +161,7 @@ const Projects = () => (
 						<p className='text-dark'>
 							My first Outcomes Sprint project at General Assembly I worked with
 							a team of engineers paired with a team of UX designers and built a
-							Trivia application to help user test their knowledge.
+							Trivia application to help users test their knowledge.
 						</p>
 						<a
 							className='d-block text-secondary'
