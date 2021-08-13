@@ -206,7 +206,7 @@ const Projects = () => (
 					<Card.Text>
 						<p className='text-dark'>
 							For my third project at General Assembly I worked with my team of
-							developer to develop a project management app where users can can
+							developers to develop a project management app where users can can
 							manage their tasks and chat with their teammates.
 						</p>
 						<a
