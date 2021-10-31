@@ -1,4 +1,4 @@
-import profilePic from '../../assets/profile-pic.jpeg'
+import profilePic from '../../assets/images/profile-pic.jpeg'
 import './About.css'
 
 const About = () => (
