@@ -50,7 +50,7 @@ const Projects = () => (
 				</a>
 				<a
 					className='text-secondary'
-					href='https://www.headsup-holdem.netlify.app'
+					href='https://headsup-holdem.netlify.app'
 					rel='noreferrer'
 					target='_blank'>
 					<strong>View Deployed App</strong>
