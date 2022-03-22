@@ -9,7 +9,7 @@ const Contact = () => (
 				<ion-icon name='logo-github' className='m-1'></ion-icon>
 			</a>
 			<a
-				href='https://www.linkedin.com/in/ryanmfoley'
+				href='https://www.linkedin.com/in/ryanmfoley84'
 				rel='noreferrer'
 				target='_blank'>
 				<ion-icon name='logo-linkedin' className='m-1'></ion-icon>
